@@ -132,7 +132,7 @@ Unless a specific `--output-dir` is specified, the checkpoints for individual ru
 
 ## Run complete test series
 
-On Linux, the complete test suite can be run as follows:
+On Linux, the complete test suite can be run as follows: 
 ```
 chmod +x run_all_experiments.sh
 ./run_all_experiments.sh
