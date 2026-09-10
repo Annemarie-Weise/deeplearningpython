@@ -74,8 +74,8 @@ An NVIDIA GPU is not strictly necessary, but it can speed up the experiments. To
 
 The repository can be downloaded using Git. The placeholders must be replaced with the actual repository address and directory name.
 ```
-git clone <REPOSITORY-URL>
-cd <REPOSITORY-VERZEICHNIS>
+git clone https://github.com/Annemarie-Weise/deeplearningpython.git
+cd path/to/deeplearningpython
 ```
 You can then create and activate a virtual Python environment:
 ```
