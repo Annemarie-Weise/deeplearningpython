@@ -1,0 +1,84 @@
+GPU available: training on GPU.
+epoch   1 | loss: 1.7997 | validation accuracy: 25.23%
+epoch   2 | loss: 1.7687 | validation accuracy: 39.64%
+epoch   3 | loss: 1.7368 | validation accuracy: 48.65%
+epoch   4 | loss: 1.7009 | validation accuracy: 53.15%
+epoch   5 | loss: 1.6607 | validation accuracy: 54.65%
+epoch   6 | loss: 1.6170 | validation accuracy: 57.96%
+epoch   7 | loss: 1.5709 | validation accuracy: 58.56%
+epoch   8 | loss: 1.5232 | validation accuracy: 60.66%
+epoch   9 | loss: 1.4745 | validation accuracy: 61.56%
+epoch  10 | loss: 1.4254 | validation accuracy: 62.76%
+epoch  11 | loss: 1.3762 | validation accuracy: 63.36%
+epoch  12 | loss: 1.3271 | validation accuracy: 64.26%
+epoch  13 | loss: 1.2782 | validation accuracy: 65.77%
+epoch  14 | loss: 1.2296 | validation accuracy: 66.07%
+epoch  15 | loss: 1.1810 | validation accuracy: 66.37%
+epoch  16 | loss: 1.1321 | validation accuracy: 68.47%
+epoch  17 | loss: 1.0833 | validation accuracy: 70.27%
+epoch  18 | loss: 1.0350 | validation accuracy: 72.97%
+epoch  19 | loss: 0.9870 | validation accuracy: 73.27%
+epoch  20 | loss: 0.9383 | validation accuracy: 73.57%
+epoch  21 | loss: 0.8879 | validation accuracy: 71.77%
+epoch  22 | loss: 0.8367 | validation accuracy: 71.47%
+epoch  23 | loss: 0.7874 | validation accuracy: 72.67%
+epoch  24 | loss: 0.7398 | validation accuracy: 72.97%
+epoch  25 | loss: 0.6924 | validation accuracy: 74.17%
+epoch  26 | loss: 0.6505 | validation accuracy: 75.38%
+epoch  27 | loss: 0.6127 | validation accuracy: 74.17%
+epoch  28 | loss: 0.5972 | validation accuracy: 71.47%
+epoch  29 | loss: 0.5740 | validation accuracy: 74.17%
+epoch  30 | loss: 0.5289 | validation accuracy: 74.47%
+epoch  31 | loss: 0.5089 | validation accuracy: 74.47%
+epoch  32 | loss: 0.4756 | validation accuracy: 74.17%
+epoch  33 | loss: 0.4534 | validation accuracy: 72.97%
+epoch  34 | loss: 0.4299 | validation accuracy: 73.87%
+epoch  35 | loss: 0.4037 | validation accuracy: 73.87%
+epoch  36 | loss: 0.3905 | validation accuracy: 73.87%
+epoch  37 | loss: 0.3622 | validation accuracy: 72.37%
+epoch  38 | loss: 0.3526 | validation accuracy: 74.77%
+epoch  39 | loss: 0.3309 | validation accuracy: 73.87%
+epoch  40 | loss: 0.3143 | validation accuracy: 73.57%
+epoch  41 | loss: 0.3041 | validation accuracy: 73.57%
+epoch  42 | loss: 0.2830 | validation accuracy: 73.57%
+epoch  43 | loss: 0.2756 | validation accuracy: 73.27%
+epoch  44 | loss: 0.2584 | validation accuracy: 72.97%
+epoch  45 | loss: 0.2470 | validation accuracy: 72.67%
+epoch  46 | loss: 0.2361 | validation accuracy: 72.07%
+epoch  47 | loss: 0.2224 | validation accuracy: 72.37%
+epoch  48 | loss: 0.2149 | validation accuracy: 72.97%
+epoch  49 | loss: 0.2021 | validation accuracy: 73.87%
+epoch  50 | loss: 0.1946 | validation accuracy: 73.57%
+Using model from epoch 26 with validation accuracy 75.38%.
+
+PointNet++ summary
+------------------
+dataset: /home/jan/Documents/deeplearning/data/citeseer_output/citeseer_dataset.pt
+test loss: 0.9674
+test accuracy: 69.67%
+macro F1: 0.6150
+weighted F1: 0.6725
+best validation accuracy: 75.38%
+best epoch: 26
+trainable parameters: 1,149,558
+training time: 461.7223 s
+inference time for test set: 0.570518 s
+inference time per node: 1.713267 ms
+
+Precision and recall per class
+--------------------------------
+class 0: precision=1.0000 | recall=0.0385 | support=26
+class 1: precision=0.6842 | recall=0.6610 | support=59
+class 2: precision=0.7869 | recall=0.7164 | support=67
+class 3: precision=0.6082 | recall=0.8429 | support=70
+class 4: precision=0.6944 | recall=0.8333 | support=60
+class 5: precision=0.7778 | recall=0.6863 | support=51
+
+Accuracy by node degree
+-----------------------
+degree    0: accuracy=60.00% | nodes=5
+degree  1-2: accuracy=67.83% | nodes=230
+degree  3-5: accuracy=74.67% | nodes=75
+degree 6-10: accuracy=73.68% | nodes=19
+degree  >10: accuracy=75.00% | nodes=4
+model saved as: /home/jan/Documents/deeplearning/experiment_results/full_evaluation/citeseer/pointnet_plus/centroids_8_4/seed_45/pointnet_plus_plus_citeseer.pt

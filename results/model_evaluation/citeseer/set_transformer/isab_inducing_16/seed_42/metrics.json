@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "dataset": "citeseer",
+    "model": "set_transformer",
+    "configuration": "isab_inducing_16",
+    "seed": 42,
+    "checkpoint": "results/model_evaluation/citeseer/set_transformer/isab_inducing_16/seed_42/set_transformer_citeseer_isab.pt"
+  },
+  "metrics": {
+    "test_loss": 0.9216513633728027,
+    "test_accuracy": 0.7117117047309875,
+    "macro_f1": 0.6574024692703062,
+    "weighted_f1": 0.6982905757899736,
+    "precision_per_class": {
+      "0": 0.5714285714285714,
+      "1": 0.56,
+      "2": 0.7301587301587301,
+      "3": 0.7333333333333333,
+      "4": 0.8035714285714286,
+      "5": 0.7894736842105263
+    },
+    "recall_per_class": {
+      "0": 0.14814814814814814,
+      "1": 0.711864406779661,
+      "2": 0.6865671641791045,
+      "3": 0.7857142857142857,
+      "4": 0.7627118644067796,
+      "5": 0.8823529411764706
+    },
+    "support_per_class": {
+      "0": 27,
+      "1": 59,
+      "2": 67,
+      "3": 70,
+      "4": 59,
+      "5": 51
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 8,
+        "accuracy": 0.625
+      },
+      "1-2": {
+        "count": 214,
+        "accuracy": 0.6915887594223022
+      },
+      "3-5": {
+        "count": 78,
+        "accuracy": 0.7435897588729858
+      },
+      "6-10": {
+        "count": 22,
+        "accuracy": 0.8181818127632141
+      },
+      ">10": {
+        "count": 11,
+        "accuracy": 0.7272727489471436
+      }
+    },
+    "inference_time_seconds": 0.7737240419955924,
+    "inference_time_per_node_ms": 2.3234956216083855,
+    "best_epoch": 14,
+    "best_validation_accuracy": 0.7717717885971069,
+    "trainable_parameters": 1467526,
+    "training_time_seconds": 1024.124290118998
+  }
+}

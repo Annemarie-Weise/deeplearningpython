@@ -1,0 +1,85 @@
+GPU available: training on GPU.
+/home/jan/miniforge3/envs/all/lib/python3.10/site-packages/torch/nn/functional.py:6718: UserWarning: Flash Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /__w/rockrel/rockrel/external-builds/pytorch/pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:323.)
+  attn_output = scaled_dot_product_attention(
+/home/jan/miniforge3/envs/all/lib/python3.10/site-packages/torch/nn/functional.py:6718: UserWarning: Mem Efficient attention on Current AMD GPU is still experimental. Enable it with TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1. (Triggered internally at /__w/rockrel/rockrel/external-builds/pytorch/pytorch/aten/src/ATen/native/transformers/hip/sdp_utils.cpp:383.)
+  attn_output = scaled_dot_product_attention(
+epoch   1 | loss: 0.7286 | validation accuracy: 75.08%
+epoch   2 | loss: 0.5517 | validation accuracy: 75.08%
+epoch   3 | loss: 0.4721 | validation accuracy: 73.87%
+epoch   4 | loss: 0.4719 | validation accuracy: 72.37%
+epoch   5 | loss: 0.4676 | validation accuracy: 72.97%
+epoch   6 | loss: 0.4476 | validation accuracy: 72.97%
+epoch   7 | loss: 0.4494 | validation accuracy: 72.37%
+epoch   8 | loss: 0.4449 | validation accuracy: 74.47%
+epoch   9 | loss: 0.4353 | validation accuracy: 73.57%
+epoch  10 | loss: 0.4355 | validation accuracy: 72.67%
+epoch  11 | loss: 0.4334 | validation accuracy: 73.57%
+epoch  12 | loss: 0.4281 | validation accuracy: 74.17%
+epoch  13 | loss: 0.4220 | validation accuracy: 72.67%
+epoch  14 | loss: 0.4202 | validation accuracy: 74.77%
+epoch  15 | loss: 0.4216 | validation accuracy: 73.27%
+epoch  16 | loss: 0.4175 | validation accuracy: 73.57%
+epoch  17 | loss: 0.4132 | validation accuracy: 75.68%
+epoch  18 | loss: 0.4139 | validation accuracy: 72.97%
+epoch  19 | loss: 0.4118 | validation accuracy: 74.77%
+epoch  20 | loss: 0.4067 | validation accuracy: 74.47%
+epoch  21 | loss: 0.4060 | validation accuracy: 72.67%
+epoch  22 | loss: 0.4061 | validation accuracy: 74.77%
+epoch  23 | loss: 0.4026 | validation accuracy: 74.77%
+epoch  24 | loss: 0.3997 | validation accuracy: 74.17%
+epoch  25 | loss: 0.3988 | validation accuracy: 75.08%
+epoch  26 | loss: 0.3965 | validation accuracy: 73.87%
+epoch  27 | loss: 0.3927 | validation accuracy: 74.17%
+epoch  28 | loss: 0.3904 | validation accuracy: 73.57%
+epoch  29 | loss: 0.3900 | validation accuracy: 72.37%
+epoch  30 | loss: 0.3893 | validation accuracy: 75.38%
+epoch  31 | loss: 0.3924 | validation accuracy: 71.77%
+epoch  32 | loss: 0.3981 | validation accuracy: 73.87%
+epoch  33 | loss: 0.3880 | validation accuracy: 74.77%
+epoch  34 | loss: 0.3786 | validation accuracy: 71.17%
+epoch  35 | loss: 0.3856 | validation accuracy: 75.08%
+epoch  36 | loss: 0.3763 | validation accuracy: 74.77%
+epoch  37 | loss: 0.3756 | validation accuracy: 72.97%
+epoch  38 | loss: 0.3753 | validation accuracy: 74.77%
+epoch  39 | loss: 0.3680 | validation accuracy: 73.27%
+epoch  40 | loss: 0.3702 | validation accuracy: 74.47%
+epoch  41 | loss: 0.3675 | validation accuracy: 74.47%
+epoch  42 | loss: 0.3600 | validation accuracy: 73.27%
+epoch  43 | loss: 0.3604 | validation accuracy: 73.57%
+epoch  44 | loss: 0.3610 | validation accuracy: 74.17%
+epoch  45 | loss: 0.3616 | validation accuracy: 73.87%
+epoch  46 | loss: 0.3534 | validation accuracy: 74.17%
+epoch  47 | loss: 0.3471 | validation accuracy: 74.77%
+epoch  48 | loss: 0.3448 | validation accuracy: 74.77%
+epoch  49 | loss: 0.3473 | validation accuracy: 74.47%
+epoch  50 | loss: 0.3777 | validation accuracy: 74.17%
+Using model from epoch 17 with validation accuracy 75.68%.
+
+Set Transformer summary
+-----------------------
+dataset: /home/jan/Documents/deeplearning/data/synthetic_output/synthetic_dataset.pt
+attention block: ISAB
+test loss: 0.5036
+test accuracy: 74.17%
+macro F1: 0.7409
+weighted F1: 0.7406
+best validation accuracy: 75.68%
+best epoch: 17
+trainable parameters: 525,186
+training time: 916.0816 s
+inference time for test set: 0.661354 s
+inference time per node: 1.986049 ms
+
+Precision and recall per class
+--------------------------------
+class 0: precision=0.7037 | recall=0.8160 | support=163
+class 1: precision=0.7917 | recall=0.6706 | support=170
+
+Accuracy by node degree
+-----------------------
+degree    0: accuracy=n/a | nodes=0
+degree  1-2: accuracy=n/a | nodes=0
+degree  3-5: accuracy=n/a | nodes=0
+degree 6-10: accuracy=74.17% | nodes=333
+degree  >10: accuracy=n/a | nodes=0
+model saved as: /home/jan/Documents/deeplearning/experiment_results/full_evaluation/synthetic/set_transformer/isab_inducing_32/seed_45/set_transformer_synthetic_isab.pt

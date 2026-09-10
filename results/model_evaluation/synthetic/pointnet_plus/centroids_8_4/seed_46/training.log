@@ -1,0 +1,80 @@
+GPU available: training on GPU.
+epoch   1 | loss: 0.6938 | validation accuracy: 65.17%
+epoch   2 | loss: 0.6797 | validation accuracy: 70.87%
+epoch   3 | loss: 0.6660 | validation accuracy: 73.57%
+epoch   4 | loss: 0.6526 | validation accuracy: 73.57%
+epoch   5 | loss: 0.6392 | validation accuracy: 74.77%
+epoch   6 | loss: 0.6257 | validation accuracy: 75.08%
+epoch   7 | loss: 0.6116 | validation accuracy: 75.68%
+epoch   8 | loss: 0.5969 | validation accuracy: 75.98%
+epoch   9 | loss: 0.5811 | validation accuracy: 75.68%
+epoch  10 | loss: 0.5642 | validation accuracy: 77.18%
+epoch  11 | loss: 0.5466 | validation accuracy: 76.58%
+epoch  12 | loss: 0.5295 | validation accuracy: 75.38%
+epoch  13 | loss: 0.5150 | validation accuracy: 75.38%
+epoch  14 | loss: 0.5029 | validation accuracy: 75.98%
+epoch  15 | loss: 0.4942 | validation accuracy: 76.58%
+epoch  16 | loss: 0.4858 | validation accuracy: 77.18%
+epoch  17 | loss: 0.4787 | validation accuracy: 75.08%
+epoch  18 | loss: 0.4797 | validation accuracy: 71.17%
+epoch  19 | loss: 0.5332 | validation accuracy: 75.98%
+epoch  20 | loss: 0.4659 | validation accuracy: 74.77%
+epoch  21 | loss: 0.5033 | validation accuracy: 74.77%
+epoch  22 | loss: 0.4787 | validation accuracy: 75.68%
+epoch  23 | loss: 0.4583 | validation accuracy: 76.58%
+epoch  24 | loss: 0.4583 | validation accuracy: 75.08%
+epoch  25 | loss: 0.4621 | validation accuracy: 75.08%
+epoch  26 | loss: 0.4615 | validation accuracy: 75.68%
+epoch  27 | loss: 0.4577 | validation accuracy: 76.88%
+epoch  28 | loss: 0.4537 | validation accuracy: 76.88%
+epoch  29 | loss: 0.4509 | validation accuracy: 75.98%
+epoch  30 | loss: 0.4492 | validation accuracy: 76.58%
+epoch  31 | loss: 0.4484 | validation accuracy: 76.58%
+epoch  32 | loss: 0.4480 | validation accuracy: 75.98%
+epoch  33 | loss: 0.4479 | validation accuracy: 75.98%
+epoch  34 | loss: 0.4477 | validation accuracy: 75.68%
+epoch  35 | loss: 0.4474 | validation accuracy: 75.38%
+epoch  36 | loss: 0.4469 | validation accuracy: 75.38%
+epoch  37 | loss: 0.4464 | validation accuracy: 75.38%
+epoch  38 | loss: 0.4457 | validation accuracy: 75.68%
+epoch  39 | loss: 0.4450 | validation accuracy: 75.68%
+epoch  40 | loss: 0.4442 | validation accuracy: 75.68%
+epoch  41 | loss: 0.4435 | validation accuracy: 75.98%
+epoch  42 | loss: 0.4428 | validation accuracy: 75.68%
+epoch  43 | loss: 0.4423 | validation accuracy: 75.98%
+epoch  44 | loss: 0.4417 | validation accuracy: 75.68%
+epoch  45 | loss: 0.4414 | validation accuracy: 75.68%
+epoch  46 | loss: 0.4410 | validation accuracy: 75.68%
+epoch  47 | loss: 0.4408 | validation accuracy: 75.68%
+epoch  48 | loss: 0.4405 | validation accuracy: 75.38%
+epoch  49 | loss: 0.4403 | validation accuracy: 75.38%
+epoch  50 | loss: 0.4401 | validation accuracy: 75.38%
+Using model from epoch 10 with validation accuracy 77.18%.
+
+PointNet++ summary
+------------------
+dataset: /home/jan/Documents/deeplearning/data/synthetic_output/synthetic_dataset.pt
+test loss: 0.5316
+test accuracy: 79.88%
+macro F1: 0.7987
+weighted F1: 0.7988
+best validation accuracy: 77.18%
+best epoch: 10
+trainable parameters: 144,002
+training time: 386.4263 s
+inference time for test set: 0.442853 s
+inference time per node: 1.329888 ms
+
+Precision and recall per class
+--------------------------------
+class 0: precision=0.7963 | recall=0.7914 | support=163
+class 1: precision=0.8012 | recall=0.8059 | support=170
+
+Accuracy by node degree
+-----------------------
+degree    0: accuracy=n/a | nodes=0
+degree  1-2: accuracy=n/a | nodes=0
+degree  3-5: accuracy=n/a | nodes=0
+degree 6-10: accuracy=79.88% | nodes=333
+degree  >10: accuracy=n/a | nodes=0
+model saved as: /home/jan/Documents/deeplearning/experiment_results/full_evaluation/synthetic/pointnet_plus/centroids_8_4/seed_46/pointnet_plus_plus_synthetic.pt

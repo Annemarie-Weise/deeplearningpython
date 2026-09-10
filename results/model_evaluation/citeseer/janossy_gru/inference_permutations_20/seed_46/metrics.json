@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "dataset": "citeseer",
+    "model": "janossy_gru",
+    "configuration": "inference_permutations_20",
+    "seed": 46,
+    "checkpoint": "results/model_evaluation/citeseer/janossy_gru/inference_permutations_20/seed_46/janossy_gru_citeseer.pt"
+  },
+  "metrics": {
+    "test_loss": 0.6964570879936218,
+    "test_accuracy": 0.7777777910232544,
+    "macro_f1": 0.7500208226659839,
+    "weighted_f1": 0.7749138385697525,
+    "precision_per_class": {
+      "0": 0.6875,
+      "1": 0.6417910447761194,
+      "2": 0.7671232876712328,
+      "3": 0.8285714285714286,
+      "4": 0.8153846153846154,
+      "5": 0.9047619047619048
+    },
+    "recall_per_class": {
+      "0": 0.4230769230769231,
+      "1": 0.7288135593220338,
+      "2": 0.835820895522388,
+      "3": 0.8285714285714286,
+      "4": 0.8833333333333333,
+      "5": 0.7450980392156863
+    },
+    "support_per_class": {
+      "0": 26,
+      "1": 59,
+      "2": 67,
+      "3": 70,
+      "4": 60,
+      "5": 51
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 8,
+        "accuracy": 0.75
+      },
+      "1-2": {
+        "count": 209,
+        "accuracy": 0.7751196026802063
+      },
+      "3-5": {
+        "count": 84,
+        "accuracy": 0.7857142686843872
+      },
+      "6-10": {
+        "count": 29,
+        "accuracy": 0.7931034564971924
+      },
+      ">10": {
+        "count": 3,
+        "accuracy": 0.6666666865348816
+      }
+    },
+    "inference_time_seconds": 5.691577869001776,
+    "inference_time_per_node_ms": 17.091825432437766,
+    "best_epoch": 34,
+    "best_validation_accuracy": 0.7777777910232544,
+    "trainable_parameters": 1064454,
+    "training_time_seconds": 523.6801703640012
+  }
+}

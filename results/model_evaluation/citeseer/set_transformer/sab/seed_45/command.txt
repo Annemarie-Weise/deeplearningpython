@@ -1,0 +1,2 @@
+Working directory: /home/jan/Documents/deeplearning
+Command: python /home/jan/Documents/deeplearning/set_transformer.py --dataset-path /home/jan/Documents/deeplearning/data/citeseer_output/citeseer_dataset.pt --internal-features 128 --num-heads 4 --num-blocks 2 --attention-block sab --epochs 50 --learning-rate 0.001 --seed 45 --device auto --output-dir /home/jan/Documents/deeplearning/experiment_results/full_evaluation/citeseer/set_transformer/sab/seed_45 

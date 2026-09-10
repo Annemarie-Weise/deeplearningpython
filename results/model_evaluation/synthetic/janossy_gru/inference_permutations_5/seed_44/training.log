@@ -1,0 +1,81 @@
+GPU available: training on GPU.
+epoch   1 | loss: 0.6982 | validation accuracy: 65.47%
+epoch   2 | loss: 0.6503 | validation accuracy: 73.57%
+epoch   3 | loss: 0.6085 | validation accuracy: 75.98%
+epoch   4 | loss: 0.5714 | validation accuracy: 75.98%
+epoch   5 | loss: 0.5392 | validation accuracy: 75.98%
+epoch   6 | loss: 0.5093 | validation accuracy: 76.28%
+epoch   7 | loss: 0.4880 | validation accuracy: 75.98%
+epoch   8 | loss: 0.4695 | validation accuracy: 75.38%
+epoch   9 | loss: 0.4584 | validation accuracy: 75.08%
+epoch  10 | loss: 0.4549 | validation accuracy: 75.98%
+epoch  11 | loss: 0.4635 | validation accuracy: 75.98%
+epoch  12 | loss: 0.4653 | validation accuracy: 75.38%
+epoch  13 | loss: 0.4659 | validation accuracy: 76.28%
+epoch  14 | loss: 0.4622 | validation accuracy: 74.77%
+epoch  15 | loss: 0.4586 | validation accuracy: 75.08%
+epoch  16 | loss: 0.4507 | validation accuracy: 75.68%
+epoch  17 | loss: 0.4494 | validation accuracy: 76.28%
+epoch  18 | loss: 0.4444 | validation accuracy: 75.98%
+epoch  19 | loss: 0.4440 | validation accuracy: 75.98%
+epoch  20 | loss: 0.4416 | validation accuracy: 75.38%
+epoch  21 | loss: 0.4444 | validation accuracy: 75.38%
+epoch  22 | loss: 0.4453 | validation accuracy: 75.38%
+epoch  23 | loss: 0.4468 | validation accuracy: 75.98%
+epoch  24 | loss: 0.4456 | validation accuracy: 75.68%
+epoch  25 | loss: 0.4441 | validation accuracy: 75.38%
+epoch  26 | loss: 0.4423 | validation accuracy: 75.38%
+epoch  27 | loss: 0.4400 | validation accuracy: 75.98%
+epoch  28 | loss: 0.4387 | validation accuracy: 75.38%
+epoch  29 | loss: 0.4389 | validation accuracy: 74.77%
+epoch  30 | loss: 0.4399 | validation accuracy: 75.38%
+epoch  31 | loss: 0.4351 | validation accuracy: 75.38%
+epoch  32 | loss: 0.4355 | validation accuracy: 75.08%
+epoch  33 | loss: 0.4363 | validation accuracy: 75.38%
+epoch  34 | loss: 0.4361 | validation accuracy: 75.68%
+epoch  35 | loss: 0.4351 | validation accuracy: 75.68%
+epoch  36 | loss: 0.4353 | validation accuracy: 75.98%
+epoch  37 | loss: 0.4341 | validation accuracy: 75.38%
+epoch  38 | loss: 0.4335 | validation accuracy: 75.38%
+epoch  39 | loss: 0.4324 | validation accuracy: 75.08%
+epoch  40 | loss: 0.4315 | validation accuracy: 75.08%
+epoch  41 | loss: 0.4302 | validation accuracy: 75.38%
+epoch  42 | loss: 0.4316 | validation accuracy: 75.68%
+epoch  43 | loss: 0.4304 | validation accuracy: 75.08%
+epoch  44 | loss: 0.4305 | validation accuracy: 75.38%
+epoch  45 | loss: 0.4290 | validation accuracy: 75.38%
+epoch  46 | loss: 0.4297 | validation accuracy: 75.98%
+epoch  47 | loss: 0.4283 | validation accuracy: 75.38%
+epoch  48 | loss: 0.4288 | validation accuracy: 75.38%
+epoch  49 | loss: 0.4268 | validation accuracy: 75.68%
+epoch  50 | loss: 0.4274 | validation accuracy: 75.68%
+Using model from epoch 6 with validation accuracy 76.28%.
+
+Janossy GRU summary
+-------------------
+dataset: /home/jan/Documents/deeplearning/data/synthetic_output/synthetic_dataset.pt
+inference permutations: 5
+test loss: 0.4647
+test accuracy: 80.18%
+macro F1: 0.8017
+weighted F1: 0.8016
+best validation accuracy: 76.28%
+best epoch: 6
+trainable parameters: 118,018
+training time: 288.6026 s
+inference time for test set: 1.294619 s
+inference time per node: 3.887745 ms
+
+Precision and recall per class
+--------------------------------
+class 0: precision=0.7740 | recall=0.8405 | support=163
+class 1: precision=0.8333 | recall=0.7647 | support=170
+
+Accuracy by node degree
+-----------------------
+degree    0: accuracy=n/a | nodes=0
+degree  1-2: accuracy=n/a | nodes=0
+degree  3-5: accuracy=n/a | nodes=0
+degree 6-10: accuracy=80.18% | nodes=333
+degree  >10: accuracy=n/a | nodes=0
+model saved as: /home/jan/Documents/deeplearning/experiment_results/full_evaluation/synthetic/janossy_gru/inference_permutations_5/seed_44/janossy_gru_synthetic.pt

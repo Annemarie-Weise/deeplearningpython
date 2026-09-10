@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "dataset": "synthetic",
+    "model": "deepset",
+    "configuration": "default",
+    "seed": 46,
+    "checkpoint": "results/model_evaluation/synthetic/deepset/default/seed_46/deepset_synthetic.pt"
+  },
+  "metrics": {
+    "test_loss": 0.49325069785118103,
+    "test_accuracy": 0.7807807922363281,
+    "macro_f1": 0.78077287279614,
+    "weighted_f1": 0.7808005507423823,
+    "precision_per_class": {
+      "0": 0.7678571428571429,
+      "1": 0.793939393939394
+    },
+    "recall_per_class": {
+      "0": 0.7914110429447853,
+      "1": 0.7705882352941177
+    },
+    "support_per_class": {
+      "0": 163,
+      "1": 170
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 0,
+        "accuracy": null
+      },
+      "1-2": {
+        "count": 0,
+        "accuracy": null
+      },
+      "3-5": {
+        "count": 0,
+        "accuracy": null
+      },
+      "6-10": {
+        "count": 333,
+        "accuracy": 0.7807807922363281
+      },
+      ">10": {
+        "count": 0,
+        "accuracy": null
+      }
+    },
+    "inference_time_seconds": 0.06145968999953766,
+    "inference_time_per_node_ms": 0.18456363363224523,
+    "best_epoch": 1,
+    "best_validation_accuracy": 0.759759783744812,
+    "trainable_parameters": 35458,
+    "training_time_seconds": 58.9634958000006
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "dataset": "synthetic",
+    "model": "set_transformer",
+    "configuration": "sab",
+    "seed": 45,
+    "checkpoint": "results/model_evaluation/synthetic/set_transformer/sab/seed_45/set_transformer_synthetic_sab.pt"
+  },
+  "metrics": {
+    "test_loss": 0.5293406248092651,
+    "test_accuracy": 0.7627627849578857,
+    "macro_f1": 0.7627285272338622,
+    "weighted_f1": 0.7627884394094383,
+    "precision_per_class": {
+      "0": 0.7530120481927711,
+      "1": 0.7724550898203593
+    },
+    "recall_per_class": {
+      "0": 0.7668711656441718,
+      "1": 0.7588235294117647
+    },
+    "support_per_class": {
+      "0": 163,
+      "1": 170
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 0,
+        "accuracy": null
+      },
+      "1-2": {
+        "count": 0,
+        "accuracy": null
+      },
+      "3-5": {
+        "count": 0,
+        "accuracy": null
+      },
+      "6-10": {
+        "count": 333,
+        "accuracy": 0.7627627849578857
+      },
+      ">10": {
+        "count": 0,
+        "accuracy": null
+      }
+    },
+    "inference_time_seconds": 0.3298887900000409,
+    "inference_time_per_node_ms": 0.9906570270271499,
+    "best_epoch": 1,
+    "best_validation_accuracy": 0.7537537813186646,
+    "trainable_parameters": 317826,
+    "training_time_seconds": 515.0692810230012
+  }
+}

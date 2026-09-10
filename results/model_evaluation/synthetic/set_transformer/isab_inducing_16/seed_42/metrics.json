@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "dataset": "synthetic",
+    "model": "set_transformer",
+    "configuration": "isab_inducing_16",
+    "seed": 42,
+    "checkpoint": "results/model_evaluation/synthetic/set_transformer/isab_inducing_16/seed_42/set_transformer_synthetic_isab.pt"
+  },
+  "metrics": {
+    "test_loss": 0.5517642498016357,
+    "test_accuracy": 0.7567567825317383,
+    "macro_f1": 0.7566162869388675,
+    "weighted_f1": 0.7564933758482145,
+    "precision_per_class": {
+      "0": 0.7303370786516854,
+      "1": 0.7870967741935484
+    },
+    "recall_per_class": {
+      "0": 0.7975460122699386,
+      "1": 0.7176470588235294
+    },
+    "support_per_class": {
+      "0": 163,
+      "1": 170
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 0,
+        "accuracy": null
+      },
+      "1-2": {
+        "count": 0,
+        "accuracy": null
+      },
+      "3-5": {
+        "count": 0,
+        "accuracy": null
+      },
+      "6-10": {
+        "count": 333,
+        "accuracy": 0.7567567825317383
+      },
+      ">10": {
+        "count": 0,
+        "accuracy": null
+      }
+    },
+    "inference_time_seconds": 0.6597920239983068,
+    "inference_time_per_node_ms": 1.9813574294243448,
+    "best_epoch": 48,
+    "best_validation_accuracy": 0.7717717885971069,
+    "trainable_parameters": 521090,
+    "training_time_seconds": 912.8277683590022
+  }
+}

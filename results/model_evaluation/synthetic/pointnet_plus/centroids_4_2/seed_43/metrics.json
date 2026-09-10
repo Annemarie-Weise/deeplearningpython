@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "dataset": "synthetic",
+    "model": "pointnet_plus",
+    "configuration": "centroids_4_2",
+    "seed": 43,
+    "checkpoint": "results/model_evaluation/synthetic/pointnet_plus/centroids_4_2/seed_43/pointnet_plus_plus_synthetic.pt"
+  },
+  "metrics": {
+    "test_loss": 0.46174144744873047,
+    "test_accuracy": 0.7867867946624756,
+    "macro_f1": 0.786014897410602,
+    "weighted_f1": 0.7857447361289372,
+    "precision_per_class": {
+      "0": 0.7421052631578947,
+      "1": 0.8461538461538461
+    },
+    "recall_per_class": {
+      "0": 0.8650306748466258,
+      "1": 0.711764705882353
+    },
+    "support_per_class": {
+      "0": 163,
+      "1": 170
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 0,
+        "accuracy": null
+      },
+      "1-2": {
+        "count": 0,
+        "accuracy": null
+      },
+      "3-5": {
+        "count": 0,
+        "accuracy": null
+      },
+      "6-10": {
+        "count": 333,
+        "accuracy": 0.7867867946624756
+      },
+      ">10": {
+        "count": 0,
+        "accuracy": null
+      }
+    },
+    "inference_time_seconds": 0.36014356100349687,
+    "inference_time_per_node_ms": 1.0815121952056963,
+    "best_epoch": 17,
+    "best_validation_accuracy": 0.8018018007278442,
+    "trainable_parameters": 144002,
+    "training_time_seconds": 346.64061961600237
+  }
+}

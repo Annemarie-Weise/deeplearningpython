@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "dataset": "synthetic",
+    "model": "janossy_gru",
+    "configuration": "inference_permutations_10",
+    "seed": 42,
+    "checkpoint": "results/model_evaluation/synthetic/janossy_gru/inference_permutations_10/seed_42/janossy_gru_synthetic.pt"
+  },
+  "metrics": {
+    "test_loss": 0.5699707269668579,
+    "test_accuracy": 0.7507507801055908,
+    "macro_f1": 0.7507417594805429,
+    "weighted_f1": 0.7507102900348154,
+    "precision_per_class": {
+      "0": 0.7325581395348837,
+      "1": 0.7701863354037267
+    },
+    "recall_per_class": {
+      "0": 0.7730061349693251,
+      "1": 0.7294117647058823
+    },
+    "support_per_class": {
+      "0": 163,
+      "1": 170
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 0,
+        "accuracy": null
+      },
+      "1-2": {
+        "count": 0,
+        "accuracy": null
+      },
+      "3-5": {
+        "count": 0,
+        "accuracy": null
+      },
+      "6-10": {
+        "count": 333,
+        "accuracy": 0.7507507801055908
+      },
+      ">10": {
+        "count": 0,
+        "accuracy": null
+      }
+    },
+    "inference_time_seconds": 2.6138160029986466,
+    "inference_time_per_node_ms": 7.849297306302242,
+    "best_epoch": 4,
+    "best_validation_accuracy": 0.7777777910232544,
+    "trainable_parameters": 118018,
+    "training_time_seconds": 354.7021111330032
+  }
+}

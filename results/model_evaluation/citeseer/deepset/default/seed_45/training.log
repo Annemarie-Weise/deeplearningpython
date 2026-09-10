@@ -1,0 +1,84 @@
+GPU available: training on GPU.
+epoch   1 | loss: 1.7996 | validation accuracy: 29.73%
+epoch   2 | loss: 1.7620 | validation accuracy: 44.44%
+epoch   3 | loss: 1.7238 | validation accuracy: 50.45%
+epoch   4 | loss: 1.6796 | validation accuracy: 53.45%
+epoch   5 | loss: 1.6293 | validation accuracy: 54.95%
+epoch   6 | loss: 1.5736 | validation accuracy: 57.06%
+epoch   7 | loss: 1.5134 | validation accuracy: 61.26%
+epoch   8 | loss: 1.4495 | validation accuracy: 64.56%
+epoch   9 | loss: 1.3823 | validation accuracy: 69.67%
+epoch  10 | loss: 1.3117 | validation accuracy: 70.27%
+epoch  11 | loss: 1.2385 | validation accuracy: 72.97%
+epoch  12 | loss: 1.1638 | validation accuracy: 74.47%
+epoch  13 | loss: 1.0889 | validation accuracy: 74.47%
+epoch  14 | loss: 1.0147 | validation accuracy: 75.98%
+epoch  15 | loss: 0.9418 | validation accuracy: 75.68%
+epoch  16 | loss: 0.8716 | validation accuracy: 75.68%
+epoch  17 | loss: 0.8055 | validation accuracy: 75.68%
+epoch  18 | loss: 0.7439 | validation accuracy: 76.28%
+epoch  19 | loss: 0.6865 | validation accuracy: 76.28%
+epoch  20 | loss: 0.6332 | validation accuracy: 77.18%
+epoch  21 | loss: 0.5837 | validation accuracy: 77.78%
+epoch  22 | loss: 0.5372 | validation accuracy: 78.08%
+epoch  23 | loss: 0.4934 | validation accuracy: 77.78%
+epoch  24 | loss: 0.4527 | validation accuracy: 77.18%
+epoch  25 | loss: 0.4153 | validation accuracy: 78.08%
+epoch  26 | loss: 0.3806 | validation accuracy: 78.38%
+epoch  27 | loss: 0.3467 | validation accuracy: 78.68%
+epoch  28 | loss: 0.3140 | validation accuracy: 79.58%
+epoch  29 | loss: 0.2846 | validation accuracy: 79.88%
+epoch  30 | loss: 0.2587 | validation accuracy: 79.88%
+epoch  31 | loss: 0.2346 | validation accuracy: 79.28%
+epoch  32 | loss: 0.2109 | validation accuracy: 78.68%
+epoch  33 | loss: 0.1884 | validation accuracy: 78.38%
+epoch  34 | loss: 0.1691 | validation accuracy: 78.08%
+epoch  35 | loss: 0.1523 | validation accuracy: 76.28%
+epoch  36 | loss: 0.1360 | validation accuracy: 76.28%
+epoch  37 | loss: 0.1211 | validation accuracy: 76.88%
+epoch  38 | loss: 0.1081 | validation accuracy: 76.88%
+epoch  39 | loss: 0.0968 | validation accuracy: 77.18%
+epoch  40 | loss: 0.0866 | validation accuracy: 76.88%
+epoch  41 | loss: 0.0771 | validation accuracy: 76.28%
+epoch  42 | loss: 0.0688 | validation accuracy: 76.28%
+epoch  43 | loss: 0.0619 | validation accuracy: 75.98%
+epoch  44 | loss: 0.0557 | validation accuracy: 75.68%
+epoch  45 | loss: 0.0499 | validation accuracy: 75.38%
+epoch  46 | loss: 0.0449 | validation accuracy: 74.77%
+epoch  47 | loss: 0.0405 | validation accuracy: 75.08%
+epoch  48 | loss: 0.0367 | validation accuracy: 75.08%
+epoch  49 | loss: 0.0335 | validation accuracy: 75.08%
+epoch  50 | loss: 0.0307 | validation accuracy: 75.08%
+Using model from epoch 29 with validation accuracy 79.88%.
+
+Deep Sets summary
+-----------------
+dataset: /home/jan/Documents/deeplearning/data/citeseer_output/citeseer_dataset.pt
+test loss: 0.8411
+test accuracy: 75.98%
+macro F1: 0.6946
+weighted F1: 0.7468
+best validation accuracy: 79.88%
+best epoch: 29
+trainable parameters: 981,894
+training time: 132.7800 s
+inference time for test set: 0.195744 s
+inference time per node: 0.587819 ms
+
+Precision and recall per class
+--------------------------------
+class 0: precision=0.3636 | recall=0.1538 | support=26
+class 1: precision=0.7097 | recall=0.7458 | support=59
+class 2: precision=0.8154 | recall=0.7910 | support=67
+class 3: precision=0.8056 | recall=0.8286 | support=70
+class 4: precision=0.7761 | recall=0.8667 | support=60
+class 5: precision=0.7500 | recall=0.8235 | support=51
+
+Accuracy by node degree
+-----------------------
+degree    0: accuracy=40.00% | nodes=5
+degree  1-2: accuracy=75.65% | nodes=230
+degree  3-5: accuracy=78.67% | nodes=75
+degree 6-10: accuracy=78.95% | nodes=19
+degree  >10: accuracy=75.00% | nodes=4
+model saved as: /home/jan/Documents/deeplearning/experiment_results/full_evaluation/citeseer/deepset/default/seed_45/deepset_citeseer.pt

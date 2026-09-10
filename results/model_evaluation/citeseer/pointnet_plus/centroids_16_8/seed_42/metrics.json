@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "dataset": "citeseer",
+    "model": "pointnet_plus",
+    "configuration": "centroids_16_8",
+    "seed": 42,
+    "checkpoint": "results/model_evaluation/citeseer/pointnet_plus/centroids_16_8/seed_42/pointnet_plus_plus_citeseer.pt"
+  },
+  "metrics": {
+    "test_loss": 0.8728408813476562,
+    "test_accuracy": 0.7237237095832825,
+    "macro_f1": 0.6740612293457823,
+    "weighted_f1": 0.7098676480790301,
+    "precision_per_class": {
+      "0": 0.8333333333333334,
+      "1": 0.6142857142857143,
+      "2": 0.8214285714285714,
+      "3": 0.7123287671232876,
+      "4": 0.7183098591549296,
+      "5": 0.7719298245614035
+    },
+    "recall_per_class": {
+      "0": 0.18518518518518517,
+      "1": 0.7288135593220338,
+      "2": 0.6865671641791045,
+      "3": 0.7428571428571429,
+      "4": 0.864406779661017,
+      "5": 0.8627450980392157
+    },
+    "support_per_class": {
+      "0": 27,
+      "1": 59,
+      "2": 67,
+      "3": 70,
+      "4": 59,
+      "5": 51
+    },
+    "accuracy_by_degree": {
+      "0": {
+        "count": 8,
+        "accuracy": 0.25
+      },
+      "1-2": {
+        "count": 214,
+        "accuracy": 0.7196261882781982
+      },
+      "3-5": {
+        "count": 78,
+        "accuracy": 0.7564102411270142
+      },
+      "6-10": {
+        "count": 22,
+        "accuracy": 0.7727272510528564
+      },
+      ">10": {
+        "count": 11,
+        "accuracy": 0.8181818127632141
+      }
+    },
+    "inference_time_seconds": 0.5880070190032711,
+    "inference_time_per_node_ms": 1.765786843853667,
+    "best_epoch": 33,
+    "best_validation_accuracy": 0.759759783744812,
+    "trainable_parameters": 1149558,
+    "training_time_seconds": 473.77129447100015
+  }
+}

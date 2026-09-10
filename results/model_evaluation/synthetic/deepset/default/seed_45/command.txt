@@ -1,0 +1,2 @@
+Working directory: /home/jan/Documents/deeplearning
+Command: python /home/jan/Documents/deeplearning/deepset.py --dataset-path /home/jan/Documents/deeplearning/data/synthetic_output/synthetic_dataset.pt --internal-features 128 --epochs 50 --learning-rate 0.001 --seed 45 --device auto --output-dir /home/jan/Documents/deeplearning/experiment_results/full_evaluation/synthetic/deepset/default/seed_45 

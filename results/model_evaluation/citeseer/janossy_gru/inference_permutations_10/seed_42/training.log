@@ -1,0 +1,85 @@
+GPU available: training on GPU.
+epoch   1 | loss: 1.7973 | validation accuracy: 36.04%
+epoch   2 | loss: 1.7661 | validation accuracy: 48.95%
+epoch   3 | loss: 1.7334 | validation accuracy: 57.36%
+epoch   4 | loss: 1.6949 | validation accuracy: 62.76%
+epoch   5 | loss: 1.6499 | validation accuracy: 66.37%
+epoch   6 | loss: 1.5992 | validation accuracy: 65.77%
+epoch   7 | loss: 1.5442 | validation accuracy: 66.67%
+epoch   8 | loss: 1.4862 | validation accuracy: 65.77%
+epoch   9 | loss: 1.4266 | validation accuracy: 65.47%
+epoch  10 | loss: 1.3663 | validation accuracy: 64.56%
+epoch  11 | loss: 1.3058 | validation accuracy: 65.77%
+epoch  12 | loss: 1.2452 | validation accuracy: 69.37%
+epoch  13 | loss: 1.1835 | validation accuracy: 72.67%
+epoch  14 | loss: 1.1198 | validation accuracy: 72.67%
+epoch  15 | loss: 1.0555 | validation accuracy: 74.77%
+epoch  16 | loss: 0.9908 | validation accuracy: 75.38%
+epoch  17 | loss: 0.9265 | validation accuracy: 75.38%
+epoch  18 | loss: 0.8640 | validation accuracy: 75.98%
+epoch  19 | loss: 0.8046 | validation accuracy: 75.98%
+epoch  20 | loss: 0.7502 | validation accuracy: 76.58%
+epoch  21 | loss: 0.6994 | validation accuracy: 78.08%
+epoch  22 | loss: 0.6489 | validation accuracy: 78.08%
+epoch  23 | loss: 0.6018 | validation accuracy: 78.08%
+epoch  24 | loss: 0.5577 | validation accuracy: 78.08%
+epoch  25 | loss: 0.5174 | validation accuracy: 78.98%
+epoch  26 | loss: 0.4795 | validation accuracy: 79.58%
+epoch  27 | loss: 0.4470 | validation accuracy: 80.18%
+epoch  28 | loss: 0.4126 | validation accuracy: 80.78%
+epoch  29 | loss: 0.3808 | validation accuracy: 80.18%
+epoch  30 | loss: 0.3536 | validation accuracy: 79.58%
+epoch  31 | loss: 0.3231 | validation accuracy: 80.18%
+epoch  32 | loss: 0.3007 | validation accuracy: 81.38%
+epoch  33 | loss: 0.2737 | validation accuracy: 79.88%
+epoch  34 | loss: 0.2534 | validation accuracy: 80.18%
+epoch  35 | loss: 0.2313 | validation accuracy: 80.78%
+epoch  36 | loss: 0.2103 | validation accuracy: 80.48%
+epoch  37 | loss: 0.1908 | validation accuracy: 80.48%
+epoch  38 | loss: 0.1690 | validation accuracy: 81.68%
+epoch  39 | loss: 0.1606 | validation accuracy: 81.08%
+epoch  40 | loss: 0.1414 | validation accuracy: 81.08%
+epoch  41 | loss: 0.1280 | validation accuracy: 81.68%
+epoch  42 | loss: 0.1178 | validation accuracy: 81.08%
+epoch  43 | loss: 0.1082 | validation accuracy: 80.48%
+epoch  44 | loss: 0.0970 | validation accuracy: 80.18%
+epoch  45 | loss: 0.0855 | validation accuracy: 79.58%
+epoch  46 | loss: 0.0780 | validation accuracy: 79.28%
+epoch  47 | loss: 0.0698 | validation accuracy: 79.28%
+epoch  48 | loss: 0.0633 | validation accuracy: 78.68%
+epoch  49 | loss: 0.0595 | validation accuracy: 78.98%
+epoch  50 | loss: 0.0554 | validation accuracy: 78.38%
+Using model from epoch 38 with validation accuracy 81.68%.
+
+Janossy GRU summary
+-------------------
+dataset: /home/jan/Documents/deeplearning/data/citeseer_output/citeseer_dataset.pt
+inference permutations: 10
+test loss: 0.7737
+test accuracy: 75.08%
+macro F1: 0.7199
+weighted F1: 0.7463
+best validation accuracy: 81.68%
+best epoch: 38
+trainable parameters: 1,064,454
+training time: 346.3188 s
+inference time for test set: 2.718424 s
+inference time per node: 8.163434 ms
+
+Precision and recall per class
+--------------------------------
+class 0: precision=0.5556 | recall=0.3704 | support=27
+class 1: precision=0.6825 | recall=0.7288 | support=59
+class 2: precision=0.7465 | recall=0.7910 | support=67
+class 3: precision=0.7826 | recall=0.7714 | support=70
+class 4: precision=0.7895 | recall=0.7627 | support=59
+class 5: precision=0.8182 | recall=0.8824 | support=51
+
+Accuracy by node degree
+-----------------------
+degree    0: accuracy=25.00% | nodes=8
+degree  1-2: accuracy=75.23% | nodes=214
+degree  3-5: accuracy=75.64% | nodes=78
+degree 6-10: accuracy=86.36% | nodes=22
+degree  >10: accuracy=81.82% | nodes=11
+model saved as: /home/jan/Documents/deeplearning/experiment_results/full_evaluation/citeseer/janossy_gru/inference_permutations_10/seed_42/janossy_gru_citeseer.pt
